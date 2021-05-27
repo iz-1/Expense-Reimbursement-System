@@ -1,0 +1,23 @@
+.RequestReview table {
+    width: 100%;
+}
+
+.reviewForm {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em 0em;
+}
+
+.reviewForm .reviewbutton {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+#denied:hover {
+    background-color: red;
+}
+
+.requestReviewer h4 {
+    margin: 0;
+    padding: 0.5em 0em;
+}

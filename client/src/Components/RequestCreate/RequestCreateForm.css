@@ -1,0 +1,49 @@
+.RequestCreateForm table {
+    width: 100%;
+}
+
+.RequestCreateForm ul {
+    list-style-type: none;
+}
+
+.enMoney::before {
+    content: "$";
+}
+
+.RequestCreateForm input {
+    margin-bottom: 2px;
+}
+
+.RequestCreateForm input[type="text"], input[type="number"] {
+    height: 1.3em;
+    width: 12.7em;
+}
+
+.RequestCreateForm .btnAdd {
+    font-size: 1.1em;
+    height: 1.8em;
+    margin-top: 2.2em;
+    margin-left: 2em;
+    padding-bottom: 1.5em;
+}
+
+.RequestCreateForm input[type="date"] {
+    width: 12.9em;
+}
+
+
+/* change calendar icon */
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.RequestCreateForm .btnSubmit {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.RequestCreateForm fieldset {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+.Login {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+}
+
+.Login li {
+    list-style-type: none;
+}
+
+.loginButtons {
+    display: flex;
+    justify-content: space-evenly;
+}

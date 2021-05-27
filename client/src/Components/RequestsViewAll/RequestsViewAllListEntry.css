@@ -1,0 +1,27 @@
+.RequestsViewAllListEntry {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    text-align: center;
+}
+
+.enMoney::before {
+    content: "$";
+}
+
+.RequestsViewAllList {
+    /* margin-left: 300px; */
+    padding: 1em, 0;
+    /* margin-top: 300px; */
+}
+
+h3 {
+    margin-top: 0;
+    /*1em*/
+    padding-top: 1em;
+}
+
+.RequestsViewAllList table {
+    width: 100%;
+}

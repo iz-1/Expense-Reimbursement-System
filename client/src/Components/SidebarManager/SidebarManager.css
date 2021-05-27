@@ -1,0 +1,17 @@
+.SidebarManager {
+    position: fixed;
+    width: 170px;
+    background-color: #aaaaaa;
+    padding-right: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+.SidebarManager li {
+    list-style-type: none;
+    text-align: right;
+}

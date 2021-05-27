@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: grey;
+    color: lightgray;
+}
+
+button {
+    color: lightgray;
+    background-color: grey;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+input:hover:enabled {
+    border: solid 2px green;
+}
+
+button:hover {
+    background-color: green;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="email"] {
+    background: black;
+    color: lightgray;
+    border-radius: 5px;
+    height: 1.5em;
+    margin-bottom: 8px;
+}
+
+input:disabled {
+    color: darkgray;
+    background-color: #444444;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+:-ms-input-placeholder {
+    /*IE*/
+    color: lightgray;
+}
+
+::-ms-input-placeholder {
+    /*Edge*/
+    color: lightgray;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.linkRef {
+    cursor: pointer;
+    text-decoration: underline;
+    color: yellow;
+}
+
+.linkEmp {
+    cursor: pointer;
+    text-decoration: underline;
+    color: orange;    
+}

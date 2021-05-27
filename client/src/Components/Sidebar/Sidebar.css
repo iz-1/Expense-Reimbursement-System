@@ -1,0 +1,30 @@
+.Sidebar {
+    position: fixed;
+    width: 170px;
+    background-color: #bbbbbb;
+    padding-right: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navlink {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.navlink:hover {
+    color: lightblue;
+}
+
+.navlinkActive {
+    font-weight: bold;
+}
+
+.Sidebar li {
+    list-style-type: none;
+    text-align: right;
+}
+
+.Sidebar hr {
+  width: 10%;
+}
