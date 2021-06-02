@@ -22,14 +22,11 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Features
 
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Employee can request reimbursement with itemized list
+* Manager can view all requests/employees/an employee's request history
+* Manager can review a request
+* Manager can create new employees
+* Users can update profile and password reset
 
 ## Getting Started
 
@@ -41,8 +38,14 @@ https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.6-signed.msi (http
 start the repo if not already started (check documentation)  
 port 27017 (default)  
   
+Install gradle:
+https://gradle.org/release-candidate/
+  
 Backend compiled with:  
 JDK 1.8  
+
+Start server:
+`gradle run`
   
 Frontend:  
 `yarn`  
@@ -53,8 +56,6 @@ Frontend:
 `yarn start`  
   
 Commands have only been tested on Windows 10.  
-  
-- Images of what it should look like
   
 ## Usage
 
