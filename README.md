@@ -30,6 +30,8 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Getting Started
 
+Commands have only been tested on Windows 10.
+
 Clone repo from command line/gitbash/powershell:  
 `git clone https://github.com/iz-1/Expense-Reimbursement-System.git`  
   
@@ -38,14 +40,14 @@ https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.6-signed.msi (http
 start the repo if not already started (check documentation)  
 port 27017 (default)  
   
-Install gradle:
+Install gradle:  
 https://gradle.org/release-candidate/
   
 Backend compiled with:  
 JDK 1.8  
 
-Start server:
-`gradle run`
+Start server:  
+`gradle run`  
   
 Frontend:  
 `yarn`  
@@ -54,9 +56,7 @@ Frontend:
 `yarn add @types/react-dom`  
 `yarn add @types/react-router`  
 `yarn start`  
-  
-Commands have only been tested on Windows 10.  
-  
+   
 ## Usage
 
 Accessing the frontend login screen.
